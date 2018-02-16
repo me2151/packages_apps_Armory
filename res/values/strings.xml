@@ -30,4 +30,12 @@
 
 	<string name="statusbar_dt2s_title">Double Tap To Sleep</string>
 	<string name="statusbar_dt2s_summary">Double tap on the status bar to sleep</string>
+
+	<string name="keyguard_torch_title">Lock Screen Torch</string>
+	<string name="keyguard_torch_summary">Press and hold the power button on the lock screen to toggle the flashlight</string>
+
+	<string name="dt2s_lockscreen_title">Double Tap To Sleep</string>
+	<string name="dt2s_lockscreen_summary">Double tap on the lock screen to sleep</string>
+
+	<string name="pixel_navbar_animation">Pixel Navbar Animation</string>
 </resources>
