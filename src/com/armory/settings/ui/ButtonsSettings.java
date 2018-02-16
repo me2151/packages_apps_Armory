@@ -14,21 +14,27 @@
  * limitations under the License.
  */
 
-package com.armory.settings;
+package com.armory.settings.ui;
 
 import android.os.Bundle;
 
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+
 import com.android.settings.R;
 
-import com.armory.settings.ui.InvictrixSettingsFragment;
-
-public class MainActivity extends InvictrixSettingsFragment {
+public class ButtonsSettings extends InvictrixSettingsFragment implements OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        title = getResources().getString(R.string.main_settings_title);
-        addPreferencesFromResource(R.xml.settings_main);
+        title = getResources().getString(R.string.buttons_settings_title);
+        addPreferencesFromResource(R.xml.settings_buttons);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        return true;
     }
 
 }
