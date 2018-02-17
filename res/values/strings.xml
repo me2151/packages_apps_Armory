@@ -21,6 +21,7 @@
         <string name="armory_lockscreen_settings_title">Lock Screen</string>
         <string name="misc_settings_title">Miscellaneous</string>
         <string name="navigationbar_settings_title">Navigation Bar</string>
+        <string name="qs_settings_title">Quick Settings</string>
         <string name="recents_settings_title">Recents</string>
         <string name="statusbar_settings_title">Status Bar</string>
 
@@ -38,4 +39,55 @@
 	<string name="dt2s_lockscreen_summary">Double tap on the lock screen to sleep</string>
 
 	<string name="pixel_navbar_animation">Pixel Navbar Animation</string>
+
+	<string name="swap_volume_buttons_title">Swap Volume Buttons</string>
+	<string name="swap_volume_buttons_summary">Swap volume buttons while rotated</string>
+
+	<string name="volume_media_title">Contol Media Volume</string>
+	<string name="volume_media_summary">Default to controlling media volume with buttons</string>
+
+	<string name="music_control_title">Music Control</string>
+	<string name="music_control_summary">When the screen is off, long press the volume buttons to skip music tracks</string>
+
+	<string name="headset_title">Launch music player when</string>
+
+	<string-array name="headset_names">
+		<item>Never</item>
+		<item>Connected to wired headset</item>
+		<item>Connected to bluetooth but not Android Auto</item>
+		<item>Connected to bluetooth</item>
+		<item>Connected to anything but Android Auto</item>
+		<item>Connected to anything</item>
+	</string-array>
+
+	<string-array name="headset_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
+
+	<string name="lockscreen_media_title">Lock Screen Media</string>
+	<string name="lockscreen_media_summary">Show media info on the lockscreen</string>
+
+	<string name="statusbar_quick_pulldown_title">Quick Pulldown</string>
+	<string name="statusbar_quick_pulldown_summary">Pull down on the right side of the status bar to expand fully</string>
+
+	<string name="qs_footer_warnings_title">QS Panel Warnings</string>
+	<string name="qs_footer_warnings_summary">Hide QS Panel warnings such as VPN</string>
+
+	<string name="less_boring_heads_up_title">Limit Heads Up Notifications</string>
+	<string name="less_boring_heads_up_summary">Only show heads up notifications for calls and texts</string>
+
+	<string name="network_traffic_state_title">Network Traffic</string>
+	<string name="network_traffic_state_summary">Show network traffic in the status bar</string>
+
+	<string name="network_traffic_autohide_threshold_title">Auto Hide Traffic Icon Threshold</string>
+
+	<string name="wake_when_plugged_or_unplugged_title">Wake Up When Disconnecting or Connecting USB</string>
+
+	<string name="heads_up_notifications_enabled_title">Heads Up Notifications</string>
+
 </resources>
