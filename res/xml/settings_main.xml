@@ -28,9 +28,9 @@
 		android:title="@string/lights_settings_title"/>
 
 	<PreferenceScreen
-		android:fragment="com.armory.settings.ui.LockscreenSettings"
+		android:fragment="com.armory.settings.ui.LockScreenSettings"
 		android:key="lockscreen_settings"
-		android:title="@string/lockscreen_settings_title"/>
+		android:title="@string/armory_lockscreen_settings_title"/>
 
 	<PreferenceScreen
 		android:fragment="com.armory.settings.ui.MiscSettings"
