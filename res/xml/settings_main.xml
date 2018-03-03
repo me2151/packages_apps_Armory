@@ -22,10 +22,11 @@
 		android:key="statusbar_settings"
 		android:title="@string/buttons_settings_title"/>
 
-	<PreferenceScreen
+<!--	<PreferenceScreen
 		android:fragment="com.armory.settings.ui.LightsSettings"
-		android:key="statusbar_settings"
+		android:key="lights_settings"
 		android:title="@string/lights_settings_title"/>
+-->
 
 	<PreferenceScreen
 		android:fragment="com.armory.settings.ui.LockScreenSettings"
@@ -47,10 +48,11 @@
 		android:key="qs_settings"
 		android:title="@string/qs_settings_title"/>
 
-	<PreferenceScreen
+<!--	<PreferenceScreen
 		android:fragment="com.armory.settings.ui.RecentsSettings"
 		android:key="recents_settings"
 		android:title="@string/recents_settings_title"/>
+-->
 
 	<PreferenceScreen
 		android:fragment="com.armory.settings.ui.StatusBarSettings"
