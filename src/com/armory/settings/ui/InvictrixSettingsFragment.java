@@ -22,6 +22,19 @@ import com.android.settings.SettingsPreferenceFragment;
 
 public class InvictrixSettingsFragment extends SettingsPreferenceFragment {
 
+		private static final String DEVICE_CATEGORY = "device_extras_category";
+	
+		@Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        addPreferencesFromResource(R.xml.system);
+
+        Preference DeviceExtras = findPreference(DEVICE_CATEGORY);
+        if (!getResources().getBoolean(R.bool.has_device_extras)) {
+            getPreferenceScreen().removePreference(DeviceExtras);
+        }
+		}
+	
     protected String title = "";
 
     public String getTitle() {
